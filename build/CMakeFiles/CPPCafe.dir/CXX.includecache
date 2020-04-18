@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cuser/CPPCafe/CPPCafe.cpp
+iostream
+-
+string
+-
+math.h
+-
+Cafe.cpp
+/home/cuser/CPPCafe/Cafe.cpp
+
+/home/cuser/CPPCafe/Cafe.cpp
+string
+-
+
